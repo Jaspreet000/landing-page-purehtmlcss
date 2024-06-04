@@ -199,6 +199,7 @@ img {
     padding: 35px;
     gap: 53px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 /* Fourth Div Part */
@@ -217,7 +218,7 @@ img {
 }
 
 .sideimg {
-    padding: 35px;
+    padding: 40px;
     height: 100%;
 }
 
@@ -325,6 +326,7 @@ img {
 .gappp {
     gap: 28px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .extadd:hover {
@@ -757,6 +759,22 @@ input:focus {
 }
 
 @media (max-width:1339px){
+    .mid2text{
+        text-align: center;
+    }
+    .main-wrapper{
+        width:85%;
+    }
+    .sideimg>img{
+        width:100%;
+    }
+    .rightcont{
+        flex-direction: row;
+        width: 100%;
+        gap:20px;
+        justify-content: space-between;
+        padding: 40px;
+    }
     .pl{
         padding-left: 0px;
     }
@@ -823,4 +841,28 @@ input:focus {
     width:90%;
     height:50%;
 }
+}
+
+@media (max-width:426px){
+    .first-text{
+        font-size: 20px;
+    }
+    .first-heading{
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .left,.compan,.midcont,.whywe,.mid1text{
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .mid2text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .imgcontain>img{
+        width:88%;
+    }
+    .main7{
+        height:10rem;
+    }
 }
